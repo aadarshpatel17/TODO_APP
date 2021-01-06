@@ -1,0 +1,46 @@
+.App {
+  background-color: rgb(6, 93, 255);
+  padding: 1rem;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+}
+
+.input-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fa {
+  padding: .5rem;
+}
+#todo-name {
+  margin-right: .5rem;
+  margin-bottom: .5rem;
+  outline: none;
+  padding: .5rem 1rem;
+}
+.todo-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0rem .5rem;
+  margin-bottom: .5rem;
+}
+.todo-list:hover {
+  background-color: rgb(66, 132, 255);
+  transform: scale(1.01);
+}
+.task-completed {
+  text-decoration: line-through;
+  opacity: .5;
+}
+.filter {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+.filter-btn {
+  padding: .5rem 1rem;
+}
